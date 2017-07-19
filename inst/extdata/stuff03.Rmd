@@ -1,0 +1,76 @@
+---
+title: "Working with Docx Modifications"
+author: "Keith Baggerly"
+date: "5/14/2017"
+output:
+  word_document: 
+    reference_docx: ref02_addTextBox.docx
+  html_document: default
+---
+
+# Stuff here
+
+stuff stuff stuff stuff stuff stuff stuff  
+stuff stuff stuff stuff stuff stuff stuff  
+stuff stuff stuff stuff stuff stuff stuff  
+stuff stuff stuff stuff stuff stuff stuff  
+stuff stuff stuff stuff stuff stuff stuff  
+stuff stuff stuff stuff stuff stuff stuff  
+stuff stuff stuff stuff stuff stuff stuff  
+stuff stuff stuff stuff stuff stuff stuff  
+stuff stuff stuff stuff stuff stuff stuff  
+stuff stuff stuff stuff stuff stuff stuff  
+stuff stuff stuff stuff stuff stuff stuff  
+stuff stuff stuff stuff stuff stuff stuff  
+stuff stuff stuff stuff stuff stuff stuff  
+stuff stuff stuff stuff stuff stuff stuff  
+stuff stuff stuff stuff stuff stuff stuff  
+stuff stuff stuff stuff stuff stuff stuff  
+stuff stuff stuff stuff stuff stuff stuff  
+stuff stuff stuff stuff stuff stuff stuff  
+stuff stuff stuff stuff stuff stuff stuff  
+stuff stuff stuff stuff stuff stuff stuff  
+stuff stuff stuff stuff stuff stuff stuff  
+stuff stuff stuff stuff stuff stuff stuff  
+stuff stuff stuff stuff stuff stuff stuff  
+stuff stuff stuff stuff stuff stuff stuff  
+stuff stuff stuff stuff stuff stuff stuff  
+stuff stuff stuff stuff stuff stuff stuff  
+stuff stuff stuff stuff stuff stuff stuff  
+stuff stuff stuff stuff stuff stuff stuff  
+stuff stuff stuff stuff stuff stuff stuff  
+stuff stuff stuff stuff stuff stuff stuff  
+stuff stuff stuff stuff stuff stuff stuff  
+stuff stuff stuff stuff stuff stuff stuff  
+stuff stuff stuff stuff stuff stuff stuff  
+stuff stuff stuff stuff stuff stuff stuff  
+stuff stuff stuff stuff stuff stuff stuff  
+stuff stuff stuff stuff stuff stuff stuff  
+stuff stuff stuff stuff stuff stuff stuff  
+stuff stuff stuff stuff stuff stuff stuff  
+stuff stuff stuff stuff stuff stuff stuff  
+stuff stuff stuff stuff stuff stuff stuff  
+stuff stuff stuff stuff stuff stuff stuff  
+stuff stuff stuff stuff stuff stuff stuff  
+stuff stuff stuff stuff stuff stuff stuff  
+stuff stuff stuff stuff stuff stuff stuff  
+stuff stuff stuff stuff stuff stuff stuff  
+stuff stuff stuff stuff stuff stuff stuff  
+stuff stuff stuff stuff stuff stuff stuff  
+stuff stuff stuff stuff stuff stuff stuff  
+stuff stuff stuff stuff stuff stuff stuff  
+stuff stuff stuff stuff stuff stuff stuff  
+stuff stuff stuff stuff stuff stuff stuff  
+stuff stuff stuff stuff stuff stuff stuff  
+stuff stuff stuff stuff stuff stuff stuff  
+stuff stuff stuff stuff stuff stuff stuff  
+stuff stuff stuff stuff stuff stuff stuff  
+stuff stuff stuff stuff stuff stuff stuff  
+stuff stuff stuff stuff stuff stuff stuff  
+stuff stuff stuff stuff stuff stuff stuff  
+stuff stuff stuff stuff stuff stuff stuff  
+stuff stuff stuff stuff stuff stuff stuff  
+stuff stuff stuff stuff stuff stuff stuff  
+stuff stuff stuff stuff stuff stuff stuff  
+stuff stuff stuff stuff stuff stuff stuff  
+stuff stuff stuff stuff stuff stuff stuff  
