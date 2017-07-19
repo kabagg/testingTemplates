@@ -1,0 +1,100 @@
+---
+title: "Adding Logos (Headers and Footers) to MS Word Output"
+author: "Keith Baggerly"
+date: "`r Sys.Date()`"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Vignette Title}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+# Overview
+
+We're trying to produce formatted MS Word output from Rmd files, to fine tune "template reports" we can use for commonly performed analyses. 
+
+Part of this involves adding header information to the top of the first page of a memorandum. 
+
+One way of doing this involves assembling a reference.docx file which the Rstudio renderer can use to guide its formatting. Here, we walk through the assembly of such a file. 
+
+Example files illustrating the approach outlined here included with this package, and are stored in 
+```{r locateExternalData}
+
+system.file("extdata", package = "testingTemplates")
+
+```
+
+# Step 1: Initial Generation
+
+We begin with an unformatted Rmd file, "stuff01.Rmd", which has null content. We then use Rstudio to produce a docx output file, "stuff01.docx" using the default settings. This file has no special formatting. 
+
+From here, we're going to iterate through a series of steps in which we
+
+* make one modification to the latest version of the docx file, producing a new reference file
+* make a new Rmd file that uses the latest reference
+* generate a new docx file
+
+# Step 2: Adding the MDACC Logo
+
+## Modify the previous output to serve as a reference
+
+First, we copy stuff01.docx to ref01_addLogo.docx. Then we open ref01 in Word, and select the header area for modification. We indicate, in the "header and footer" panel, that the header should be different for the first (cover) page than for the rest of the document. Then we move to the header region of the first page, and "insert figure from file" to include the MDACC logo jpg. Using "Format Picture", we lock the aspect ratio and then size the logo to roughly match that shown in a standard MDACC Biostatistics Department report (0.9 inches high, 2.74 inches wide). Then we save the file. 
+
+## Update the Rmd to use the latest reference
+
+We copy over stuff01.Rmd to stuff02.Rmd, and edit the preamble to change it from
+
+```
+output:
+  word_document: default
+  html_document: default
+```
+
+to
+
+```
+output:
+  word_document:
+    reference_docx: ref01_addLogo.docx
+  html_document: default
+```
+
+## Generate a new docx file
+
+We then knit stuff02.Rmd to produce stuff02.docx. Sure enough, the MDACC logo is included at the top left of the first page. 
+
+# Step 3: Adding the Memorandum Label
+
+## Modify the previous output to serve as a reference
+
+First, we copy stuff02.docx to ref02_addTextBox.docx. Then we create a text box, and add "Memorandum". We shift the text font to Times New Roman 28 pt. We resize the box to ensure all of the text is visible. We set the text alignment to right alignment. Then we save the file. 
+
+## Update the Rmd to use the latest reference
+
+We copy over stuff02.Rmd to stuff03.Rmd, and edit the preamble to change it from
+
+```
+output:
+  word_document:
+    reference_docx: ref01_addLogo.docx
+  html_document: default
+```
+
+to
+
+```
+output:
+  word_document:
+    reference_docx: ref02_addTextBox.docx
+  html_document: default
+```
+
+## Generate a new docx file
+
+We then knit stuff03.Rmd to produce stuff03.docx. The MDACC logo and Memorandum label are both now included. 
+
+# Other Modifications
+
+All of this customized formatting is easier to specify for pdf output than it is for Word; the Word tweaking is time consuming. The last edit we would make part of the default involves activating the _footer_ of the MS Word file and TURNING ON PAGE NUMBERS.
+
+
