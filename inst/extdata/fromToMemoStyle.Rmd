@@ -1,0 +1,56 @@
+---
+title: "" ## Template Showing Memo in From: To: format
+author: "" ## Included in Table Below
+date: "" ## Included in Table Below
+output:
+  word_document: default
+  html_document: default
+---
+
+
+***
+
+```{r, echo=FALSE}
+## The table below is needed as is to stretch 
+## across the whole page.  The end of the telephone 
+## number must line up with the far right dashes for
+## that entry to be right-justified
+```
+
+---------------------------------- -- - - - -- - - -- - - - - --------------------------------- 
+**Department of Biostatistics**                                     Telephone:     713-555-4275       
+---------------------------------- -- - - - -- - - -- - - - - ---------------------------------      
+
+***
+```{r, echo=FALSE}
+## The table below is needed to format the 
+## header.  When the left column is empty, the 
+## text in the right column turns blue and adds 
+## an extra line space buffer in the final document.  
+## I don't know how to fix this yet. 
+## Also, the line break is needed between these 2 
+## tables, or the formatting is affected.
+```
+
+-------- ------------------------------------------------------------------------
+To:      Amanda Cooper, MD
+
+         Matt Katz, MD
+         
+         Department of Surgical Oncology
+         
+From:    Rebecca Slack, MS
+
+         Department of Biostatistics
+         
+Subject: Final Report for Sarcopenia Measures from Trial 01-341 for the First of 
+         2 Manuscripts
+         
+Date:    July 14, 2014
+-------- ------------------------------------------------------------------------
+
+***
+
+# Goal:
+
+Main text of report goes here...
