@@ -1,0 +1,16 @@
+Package: testingTemplates
+Type: Package
+Title: Provides Examples of Template Reports
+Version: 0.1.0
+Author: Keith Baggerly, Becky Slack, Jae Song, Yun Qing
+Maintainer: Keith Baggerly <kabaggerly@mdanderson.org>
+Description: Here we describe various tricks we have come up
+    with to make some of our internal reports look nicer and 
+    more consistent, to encourage uptake to of the use of 
+    report templates (and thus, hopefully, improve reproducibility).
+    Some topics covered include banners/logos for MS Word output, 
+    recasting the preamble into a "From: To:" letter in MS Word, 
+    and the use of citations, among others.
+License: MIT
+Encoding: UTF-8
+LazyData: true
