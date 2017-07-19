@@ -14,3 +14,4 @@ Description: Here we describe various tricks we have come up
 License: MIT
 Encoding: UTF-8
 LazyData: true
+RoxygenNote: 6.0.1
